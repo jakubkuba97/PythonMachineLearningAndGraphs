@@ -10,7 +10,7 @@ from matplotlib import pyplot as plt
 class PlusAndResult:
     def __init__(self) -> None:
         from random import randint
-        learn_quantity = 1000
+        learn_quantity = 300
         test_quantity = 5
         max_number = 100
         self.column_names = ['Number1', 'Number2', 'Result']

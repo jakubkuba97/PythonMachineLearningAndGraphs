@@ -36,8 +36,8 @@ class NumberTimesTwo:
 class NumberPlusNumber:
     def __init__(self) -> None:
         from random import randint
-        self.learn_quantity = 1000
-        self.test_quantity = 5
+        self.learn_quantity = 150
+        self.test_quantity = 10
         self.max_number = 100
         self.column_names = ['Number1', 'Number2', 'Result']
         self.learn_frame = pd.DataFrame(columns=self.column_names)

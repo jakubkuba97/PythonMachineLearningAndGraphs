@@ -14,8 +14,8 @@ class ExampleData:
         self.learn = pd.DataFrame(columns=self.columns)
         self.test_values = pd.DataFrame(columns=[self.columns[0], self.columns[1]])
         self.test_results = []
-        self.learn_quantity = 1000
-        self.test_quantity = 20
+        self.learn_quantity = 500
+        self.test_quantity = 25
         self.max_number = 50
         self.create_frames()
 

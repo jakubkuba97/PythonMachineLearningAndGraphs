@@ -13,10 +13,10 @@ class SupportVectorMachineModel:
         self.learn = pd.DataFrame(columns=self.columns)
         self.test_values = pd.DataFrame(columns=[self.columns[0]])
         self.test_results = []
-        self.learn_quantity = 1000
-        self.test_quantity = 80
-        self.max_random = 4
-        self.skip_how_many = int(self.learn_quantity / 20)
+        self.learn_quantity = 200
+        self.test_quantity = 40
+        self.max_random = 3
+        self.skip_how_many = int(self.learn_quantity / 40)
         self.set_data()
 
     def set_data(self) -> None:
